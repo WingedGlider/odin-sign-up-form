@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    margin: 0px;
+    height: 100vh;
+}
+a{
+    color: white;
+}
+
+body > div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    width: 34vw;
+    position: relative;
+    background: url(./images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+}
+
+body > div > span{
+    color: white;
+    opacity: .8;
+    position: relative;
+    top: 96.5%;
+    font-size: 1rem;
+}
+.banner{
+    background: rgba(0,0,0,.5);
+    height:  150px;
+    font-size: 6rem;
+    position: absolute;
+    width: 100%;
+    top: 22%;
+}
+.banner span{
+    color: white;
+    height:  100%;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner img{
+    height: 130px;
+}
