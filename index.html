@@ -14,24 +14,42 @@
     <span>Photo by <a href="https://unsplash.com/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Halie West</a> on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></span>
   </div>
   <form action="" method="post">
-    <div>
+    <div class="form">
         <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams! Sign up <i>now</i> to get started.</p>
         <p>You <i>know</i> you want to.</p>
-        <span>Let's do this!</span>
-        <label for="first-name">First Name</label>
-        <input type="text" id="first-name">
-        <label for="email">Email</label>
-        <input type="email" id="email">
-        <label for="pass1">Password</label>
-        <input type="password" id="pass1">
-        <label for="last-name">Last Name</label>
-        <input type="text" id="last-name">
-        <label for="phone">Phone Number</label>
-        <input type="number" id="phone">
-        <label for="pass2">Confirm Password</label>
-        <input type="password" id="pass2">
+        <p>Let's do this!</p>
+        <div class="input">
+          <div class="block">
+            <div>
+              <label for="first-name">First Name</label>
+              <input type="text" id="first-name">
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input type="email" id="email">
+            </div>
+            <div>
+              <label for="pass1">Password</label>
+              <input type="password" id="pass1" required>
+            </div>
+          </div>
+          <div class="block">
+            <div>
+              <label for="last-name">Last Name</label>
+              <input type="text" id="last-name">
+            </div>
+            <div>
+              <label for="phone">Phone Number</label>
+              <input type="number" id="phone">
+            </div>
+            <div>
+              <label for="pass2">Confirm Password</label>
+              <input type="password" id="pass2">
+            </div>
+          </div>
+        </div>
     </div>
-    <div>
+    <div class="form-footer">
         <button>Create Account</button>
         <span>Already have an account? <a href="">Log in</a></span>
     </div>
